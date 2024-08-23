@@ -1,0 +1,17 @@
+/* Ajusta el tamaño del Carousel */
+.custom-carousel {
+    width: 100%; /* Ajusta el ancho del Carousel */
+    max-width: 1400px; /* Ajusta el ancho máximo del Carousel */
+    margin: 0 auto; /* Centra el Carousel en la página */
+  }
+  
+  /* Ajusta el tamaño de las imágenes dentro del Carousel */
+  .carousel-image {
+    height: 700px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Mantiene la proporción de la imagen y recorta si es necesario */
+  }
+  
+  /* Ajusta el tamaño del contenedor del Carousel */
+  .custom-carousel .carousel-item {
+    height: 700px; /* Ajusta la altura del contenedor del Carousel */
+  }

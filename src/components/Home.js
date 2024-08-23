@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 import { Carousel, Accordion, Container, Row, Col } from 'react-bootstrap';
 import imagen1 from '../imagenes/imagen1.png';
 import imagen2 from '../imagenes/imagen2.png';
@@ -8,27 +9,15 @@ const Home = () => {
     return (
         <div>
             {/* Carousel */}
-            <Carousel>
+            <Carousel className="custom-carousel">
                 <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={imagen1}
-                        alt="Primera imagen"
-                    />
+                    <img className="d-block w-100 carousel-image" src={imagen1} alt="Primera imagen" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={imagen2}
-                        alt="Segunda imagen"
-                    />
+                    <img className="d-block w-100 carousel-image" src={imagen2} alt="Segunda imagen" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={imagen3}
-                        alt="Tercera imagen"
-                    />
+                    <img className="d-block w-100 carousel-image" src={imagen3} alt="Tercera imagen" />
                 </Carousel.Item>
             </Carousel>
 
